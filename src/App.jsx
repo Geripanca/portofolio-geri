@@ -4,7 +4,7 @@ import Tentang from "./pages/tentang.jsx";
 
 function App() {
   return (
-    <div className="bg-[#121212] min-h-screen">
+    <div className="bg-[#121212] ">
       <Router>
         <Routes>
           <Route path="/" element={<Beranda />} />
