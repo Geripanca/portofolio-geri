@@ -46,7 +46,7 @@ function Bagikan({ isOpen, onClose }) {
       onClick={onClose}
     >
       <div
-        className="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full relative"
+        className="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full relative mx-3 sm:mx-0"
         onClick={(e) => e.stopPropagation()}
       >
         <button
