@@ -5,7 +5,7 @@ import Footer from "../components/beranda/footer";
 
 function Beranda() {
   return (
-    <div className="w-full lg:w-1/2 mx-auto bg-[#F0F0F0] sm:p-5 p-0">
+    <div className="w-full min-h-screen lg:w-1/2 mx-auto bg-[#F0F0F0] sm:p-5 p-0">
       <Navbar />
       <Hero />
       <Footer />
