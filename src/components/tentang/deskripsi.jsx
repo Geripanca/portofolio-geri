@@ -17,7 +17,11 @@ function Deskripsi() {
         </div>
 
         <div class="col-span-5 border-b-2 border-black">
-          <img src="/Profile-face-Geri.jpg" alt="pic-Gei" />
+          <img
+            src="/Profile-face-Geri.jpg"
+            alt="pic-Gei"
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
       {/*  */}

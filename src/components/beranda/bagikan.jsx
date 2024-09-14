@@ -1,7 +1,7 @@
 import React from "react";
 
 function Bagikan({ isOpen, onClose }) {
-  const urlToShare = "https://facebook.com";
+  const urlToShare = "https://portofolio-geri.vercel.app/";
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(urlToShare);
