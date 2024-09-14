@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Hero from "../components/hero";
-import Footer from "../components/footer";
+import Navbar from "../components/beranda/navbar";
+import Hero from "../components/beranda/hero";
+import Footer from "../components/beranda/footer";
 
 function Beranda() {
   return (

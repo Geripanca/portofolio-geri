@@ -8,6 +8,7 @@ export default {
         greatVibes: ["Great Vibes", "cursive"],
         pacifico: ["Pacifico", "cursive"],
         oswald: ["Oswald", "sans-serif"],
+        libre: ["Libre Baskerville", "serif"],
       },
     },
   },
