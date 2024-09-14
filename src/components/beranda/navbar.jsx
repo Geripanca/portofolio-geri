@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Modal from "./modal";
 import Kontak from "./kontak";
 import Bagikan from "./bagikan";
@@ -38,12 +39,12 @@ function Navbar() {
           </button>
         </div>
         <div className="flex w-3/4   text-[#3A3A3A] sm:text-2xl md:text-3xl xl:text-4xl text-lg  justify-between px-3 sm:space-x-4 space-x-2 mx-auto items-center uppercase font-anton">
-          <a
-            href="/tentang"
+          <Link
+            to="/tentang"
             className="sm:hover:tracking-widest hover:tracking-wider"
           >
             About
-          </a>
+          </Link>
           <a href="#" className="sm:hover:tracking-widest hover:tracking-wider">
             Portofolio
           </a>

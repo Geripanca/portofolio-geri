@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Judul() {
   return (
     <>
       <div className="flex flex-column p-5 justify-between border-2 border-black uppercase font-libre font-bold">
         <div className="p-1 border-2 border-black">
-          <a href="/" className="">
+          <Link to="/" className="">
             Kembali
-          </a>
+          </Link>
         </div>
 
         <div className="text-xl p-1">About</div>
