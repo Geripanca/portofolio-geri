@@ -51,7 +51,10 @@ function Navbar() {
           >
             Portofolio
           </Link>
-          <a href="#" className="sm:hover:tracking-widest hover:tracking-wider">
+          <a
+            href="https://outstatic-blog-geri.vercel.app/"
+            className="sm:hover:tracking-widest hover:tracking-wider"
+          >
             Blog
           </a>
         </div>
