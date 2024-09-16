@@ -4,7 +4,7 @@ function Deskripsi() {
   return (
     <>
       <div class="grid grid-cols-12 ">
-        <div class="col-span-7 border-r-2 border-b-2 border-black p-3 font-libre text-justify">
+        <div class="col-span-7 border-r-2 border-b-2 border-black p-3 font-libre text-justify italic">
           <p className="indent-8">
             My name is Geri Tri Panca Tamba, and I am a student majoring in
             Computer Science Education at the Indonesian University of

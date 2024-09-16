@@ -45,9 +45,12 @@ function Navbar() {
           >
             About
           </Link>
-          <a href="#" className="sm:hover:tracking-widest hover:tracking-wider">
+          <Link
+            to="/portofolio"
+            className="sm:hover:tracking-widest hover:tracking-wider"
+          >
             Portofolio
-          </a>
+          </Link>
           <a href="#" className="sm:hover:tracking-widest hover:tracking-wider">
             Blog
           </a>
